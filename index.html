@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+      </div>
+    <header>
+        <img src="/img/Logo.jpg" alt="Изображение 1" class="Logo"> 
+        <p class="texttest">Тестовый вариант</p>
+        <img src="/img/search.jpg" alt="Изображение 1" class="Search"> 
+        <p class="reg">Регистрация</p>
+        <div class="buttjoin" id="loginButton">Войти</div>
+       
+        <div class="menujoin" id="menuJoinPanel">
+            <div class="blockmail">Телефон или Email</div>
+            <div class="blockpwd">Пароль</div>
+            <div class="btnjoin">Войти</div>
+            <p class="fgtpwd">Забыли пароль?</p>
+        </div>
+    
+    </header>
+    <main>
+    <h1>Продукция месяца</h1>
+    <div class="headmenu">
+    <p class="pos">Популярные позиции сезона с дополнительной скидкой</p>
+        <select id="productType" onchange="filterProducts(this.value)">
+            <option value="all">Показывать Все</option>
+            <option value="tea">Чай</option>
+            <option value="coffee">Кофе</option>
+        </select>
+    </div>    
+    <div class="infoblock" id="products-container">
+
+    </div>
+    </main>
+</body>
+<script>
+    window.onload = function () {
+      document.body.classList.add('loaded_hiding');
+      window.setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');
+      }, 3000);
+    }
+  </script>
+<script src="script.js"></script>
+</html>
+
+
+
+
+
+
+
+        <!-- <div>
+            <div class="lundzin">
+            <img src="/img/IMG.jpg" alt="Изображение 1" class="IMG">
+            <div class="info1">
+            <p class="name1">Лун Цзин, 50г</p>
+            <p class="text1">Один из самых узнаваемых сортов китайского чая. 
+                Его вкус запоминается на всю жизнь: ореховый, с нотами моря и тыквенных семечек, объёмный и глубокий.</p>
+            <div class="btn1">Подробнее</div>
+            </div>
+            </div>
+        
+        <div class="erlgrey"><img src="/img/IMG1.jpg" alt="Изображение 1" class="IMG1">
+        <div class="info2">
+            <p class="name2">«Королевский Эрл Грей» пакетированный чай</p>
+            <p class="text2">Черный чай с бергамотом — это классика вкуса, уже ставшая традицией. Такой напиток известен уже более ста лет и является излюбленным сортом чая у англичан.</p>
+            <div class="btn2">Подробнее</div>
+            
+        </div>
+        </div>
+        <div class="Margodzhip"><img src="/img/IMG2.jpg" alt="Изображение 1" class="IMG2">
+        <div class="info3">
+            <p class="name2">Шоколад Марагоджип</p>
+            <p class="text2">Густой напиток на основе сорта марагоджип с меньшим содержанием кофеина, чем традиционная арабика. Сочетает в себе оттенки кофе и темного шоколада.</p>
+            <div class="btn3">Подробнее</div>
+        </div> -->
