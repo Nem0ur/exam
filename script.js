@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
             type: "tea",
             name: "Лун Цзин, 50г",
             description: "Один из самых узнаваемых сортов китайского чая. \n Его вкус запоминается на всю жизнь: ореховый, с нотами моря и тыквенных семечек, объёмный и глубокий.",
-            image: "/img/IMG.jpg",
+            image: "img/IMG.jpg",
             backgroundColor: "#D8BFD8",
             buttonColor:"#D8BFD8",
             borderColor: "#D585FD" 
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
             type: "tea",
             name: "«Королевский Эрл Грей» пакетированный чай",
             description: "Черный чай с бергамотом — это классика вкуса, уже ставшая традицией. Такой напиток известен уже более ста лет и является излюбленным сортом чая у англичан.",
-            image: "/img/IMG1.jpg",
+            image: "img/IMG1.jpg",
             backgroundColor: "#B0E0E6",
             buttonColor:"#B0E0E6",
             borderColor: "#0C7D78"
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
             type: "coffee",
             name: "Шоколад Марагоджип",
             description: "Густой напиток на основе сорта марагоджип с меньшим содержанием кофеина, чем традиционная арабика. Сочетает в себе оттенки кофе и темного шоколада.",
-            image: "/img/IMG2.jpg",
+            image: "img/IMG2.jpg",
             backgroundColor: "#FFFACD",
             buttonColor:"#FFFACD",
             borderColor: "#717722"
